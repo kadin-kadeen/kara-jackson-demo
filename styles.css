@@ -1,0 +1,120 @@
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-color: rgba(133, 93, 154, 0.255);
+    color: white; 
+    font-family: font-family: 'Courier Prime', monospace;
+} 
+    
+a {
+    color: white;
+    border: blueviolet 1px solid;
+    border-radius: 50%;
+    background-color: brown;
+}
+.description-content{
+    padding: 10px;
+    max-width: 300px;
+    animation: 3s linear 1s infinite alternate slidein;
+
+}
+
+.quotes-content{
+    padding: 10px 
+    max-width: 300px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.description-container {
+    border: 3px solid #e7e712;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    max-width: 300px;
+    font-size: smaller;
+    margin-bottom: 30px;
+    display: flex;
+    animation: 3s linear 1s infinite alternate slidein;
+}
+
+.quotes-containter {
+    background-color: black;
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    max-width: 300px;
+    font-size: smaller;
+    /* margin: 50px auto; */
+    position: absolute;
+}
+
+.top {
+  padding: 5px;
+  background: #f1f1f1;
+}
+
+button {
+    margin: 10px 0;
+    border-radius: 10px;
+    
+}
+#image-1 {
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    max-width: 300px;
+    height: 329px;
+    position: absolute, center;
+  }
+  
+  #image-2 {
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    max-width: 200px;
+    height: 229px;
+    position: absolute;
+  }
+  
+  #image-3 {
+    border: 3px solid #f1f1f1;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    max-width: 100px;
+    height: 129px;
+    position: absolute;
+  }
+
+img {
+    width: 100%;
+}
+
+.border{
+    background-color: #E3BB1C;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+.border:hover{
+    animation-name: sun;
+    animation-duration: 1s;
+    animation-direction: normal, reverse;
+}
+@keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+
